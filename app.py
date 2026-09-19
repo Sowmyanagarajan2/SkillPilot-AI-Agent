@@ -20,7 +20,19 @@ client = OpenAI()
 # --------------------------------
 # Page
 # --------------------------------
+import os
+import tempfile
+import streamlit as st
 
+from openai import OpenAI
+from audio_recorder_streamlit import audio_recorder
+
+from agent import ask_agent
+
+
+client = OpenAI(
+    api_key=st.secrets["OPENAI_API_KEY"]
+)
 st.set_page_config(
     page_title="SkillPilot AI",
     page_icon="🤖",

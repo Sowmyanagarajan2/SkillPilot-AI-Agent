@@ -11,7 +11,13 @@ from langgraph.graph import StateGraph, START, END
 
 from langgraph.prebuilt import ToolNode
 from langgraph.prebuilt import tools_condition
+import streamlit as st
 
+llm = ChatOpenAI(
+    model="gpt-4o-mini",
+    temperature=0,
+    api_key=st.secrets["OPENAI_API_KEY"]
+)
 from tools import (
     analyze_student,
     compare_students

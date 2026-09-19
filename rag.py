@@ -2,7 +2,12 @@ from langchain_community.document_loaders import TextLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import FAISS
+import streamlit as st
 
+embeddings = OpenAIEmbeddings(
+    model="text-embedding-3-small",
+    api_key=st.secrets["OPENAI_API_KEY"]
+)
 
 def create_vector_store():
 
