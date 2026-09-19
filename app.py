@@ -109,9 +109,8 @@ if audio_bytes:
     ) as audio:
 
         transcription = client.audio.transcriptions.create(
-            model="whisper-1",
-            file=audio
-        )
+        model="gpt-4o-mini-transcribe",
+        file=audio)
 
 
     voice_question = transcription.text
