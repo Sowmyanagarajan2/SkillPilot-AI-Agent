@@ -1,0 +1,17 @@
+streamlit
+openai
+python-dotenv
+
+langchain
+langchain-openai
+langchain-community
+langchain-core
+langgraph
+
+faiss-cpu
+pypdf
+
+pandas
+numpy
+
+audio-recorder-streamlit

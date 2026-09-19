@@ -1,0 +1,66 @@
+DATA ANALYST CAREER GUIDE
+
+A Data Analyst should have knowledge of:
+
+1. Python
+Python is used for data cleaning, automation, analysis and scripting.
+
+2. Pandas
+Pandas is used for data manipulation, cleaning and analysis.
+
+3. NumPy
+NumPy is useful for numerical calculations and statistical operations.
+
+4. SQL
+SQL is important for retrieving, filtering and analyzing data from databases.
+
+5. Excel
+Excel is commonly used for data cleaning, reporting and basic analysis.
+
+6. Statistics
+Statistics helps analysts understand averages, distributions, trends,
+correlations and variability.
+
+7. Data Visualization
+Analysts should know how to communicate insights using charts and dashboards.
+
+8. Power BI
+Power BI is useful for creating interactive business dashboards.
+
+9. Machine Learning
+Basic machine learning knowledge can help analysts understand predictive
+analytics and classification.
+
+DATA ANALYST INTERVIEW PREPARATION
+
+Students should practice:
+
+SQL queries
+Python programming
+Pandas data manipulation
+Statistics
+Data visualization
+Business case studies
+Real-world data analysis projects
+
+RECOMMENDED LEARNING ORDER
+
+Begin with Python fundamentals.
+
+Then learn Pandas and NumPy.
+
+Learn SQL and Excel.
+
+Study statistics.
+
+Learn data visualization and Power BI.
+
+Finally learn basic machine learning.
+
+PROJECT IDEAS
+
+E-commerce sales analysis
+Customer churn analysis
+Student performance analysis
+Marketing campaign analysis
+Financial data analysis
